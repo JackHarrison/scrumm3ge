@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  background-color: #ecf0f1;
+  overflow: hidden;
+}
+
+#todosection {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 30%;
+  height: 100%;
+  background-color: #9197a3;
+  z-index: 1;
+}
+
+#donesection {
+  position: fixed;
+  top: 0px;
+  left: 30%;
+  width: 30%;
+  height: 100%;
+  background-color: #adc6ff;
+  z-index: 1;
+}
+
+
+#inprogresssection {
+  position: fixed;
+  top: 0px;
+  left: 60%;
+  width: 30%;
+  height: 100%;
+  background-color: cornflowerblue;
+  z-index: 1;
+}
+
+.topBar {
+  z-index: 1;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  background-color: #f39c12;
+}
+
+.form {
+  margin-top: 40px;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  background-color: #f1c40f;
+}
+
+.textAria {
+  position: absolute;
+  border-color: red;
+  width: 280px;
+  height: 140px;
+  position: absolute;
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  overflow: hide;
+}
+
+.textAria:focus {
+  outline: 0;
+}
+
+
+.todo {
+background-color: #0b97c4;
+width: 20%;
+}
